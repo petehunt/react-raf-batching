@@ -1,0 +1,18 @@
+{
+  "name": "react-raf-batching",
+  "version": "0.0.0",
+  "description": "High performance batching strategy for React",
+  "main": "ReactRAFBatching.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "http://petehunt.net/react/react-0.5.1.tar.gz"
+  },
+  "keywords": [
+    "react",
+    "requestanimationframe"
+  ],
+  "author": "Pete Hunt",
+  "license": "Apache 2"
+}
