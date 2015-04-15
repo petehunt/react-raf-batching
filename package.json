@@ -9,6 +9,9 @@
   "peerDependencies": {
     "react": "~0.9"
   },
+  "dependencies": {
+    "raf": "^2.0.4"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/petehunt/react-raf-batching"

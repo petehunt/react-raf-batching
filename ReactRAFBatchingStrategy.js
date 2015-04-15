@@ -19,12 +19,11 @@
 "use strict";
 
 var ReactUpdates = require('react/lib/ReactUpdates');
-
-var requestAnimationFrame = require('./requestAnimationFrame');
+var raf = require('raf');
 
 function tick() {
   ReactUpdates.flushBatchedUpdates();
-  requestAnimationFrame(tick);
+  raf(tick);
 }
 
 var ReactRAFBatchingStrategy = {
@@ -39,6 +38,6 @@ var ReactRAFBatchingStrategy = {
   }
 };
 
-requestAnimationFrame(tick);
+raf(tick);
 
 module.exports = ReactRAFBatchingStrategy;
