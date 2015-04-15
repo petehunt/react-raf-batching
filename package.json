@@ -1,6 +1,6 @@
 {
   "name": "react-raf-batching",
-  "version": "0.9.0",
+  "version": "0.13.1",
   "description": "High performance batching strategy for React",
   "main": "ReactRAFBatching.js",
   "scripts": {
