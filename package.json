@@ -1,13 +1,16 @@
 {
   "name": "react-raf-batching",
-  "version": "0.9.0",
+  "version": "0.13.1",
   "description": "High performance batching strategy for React",
   "main": "ReactRAFBatching.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "react": "~0.9"
+    "react": "~0.13.1"
+  },
+  "dependencies": {
+    "raf": "^2.0.4"
   },
   "repository": {
     "type": "git",
